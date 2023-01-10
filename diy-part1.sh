@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
-# fw876/helloworld
+# Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
